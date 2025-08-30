@@ -1,0 +1,16 @@
+# バックアップファイル
+*.bak
+*.tmp
+
+# エディタ関連
+.vscode/
+.idea/
+
+# OSによる隠しファイル
+.DS_Store
+
+# 環境ファイル
+.env
+
+# ライブラリ（例：Node.jsプロジェクトの場合）
+node_modules/
