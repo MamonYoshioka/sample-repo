@@ -8,7 +8,8 @@
 - branch
 - Conflict
 - Github Flow
+- git clone
 - プルリク
-- RAEDME.md
 - [ghコマンド](https://zenn.dev/mocchann/articles/5594c9ce4c9f0d)
+- RAEDME.md
 - [cherry-pick](https://zenn.dev/find/articles/e8d5912c1005b9)
