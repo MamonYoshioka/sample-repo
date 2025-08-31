@@ -3,16 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/header.css">
     <title>Home Page</title>
 </head>
 <body>
-    <header>
-        <nav>
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#" data-href="about.html">About</a></li>
-            </ul>
-        </nav>
+    <header class="site-header">
+        <div class="wrapper site-header__wrapper">
+            <a href="#" class="brand">Brand</a>
+            <nav class="nav">
+                <button class="nav__toggle" aria-expanded="false" type="button">
+                    menu
+                </button>
+                <ul class="nav__wrapper">
+                    <li class="nav__item"><a href="#">Home</a></li>
+                    <li class="nav__item"><a href="#" data-href="about.html">About</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
     <main>
         <h1>Hello NewBranch</h1>
